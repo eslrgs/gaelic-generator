@@ -1,0 +1,25 @@
+# Ignore environment files
+.env
+
+# Ignore Terraform state and related files
+terraform/
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore logs
+*.log
+
+# Ignore Streamlit static cache
+.streamlit/
+
+# Ignore other OS or editor-specific files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
